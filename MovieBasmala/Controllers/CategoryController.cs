@@ -7,6 +7,7 @@ namespace MovieBasmala.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //this is a controller
     public class CategoryController : ControllerBase
     {
         private readonly ICategoryRepo _repo;
